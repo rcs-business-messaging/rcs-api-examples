@@ -1,0 +1,21 @@
+{
+  "name": "rcs-nodejs-userstatuses",
+  "version": "0.0.1",
+  "description": "A nodejs sample that calls the RCS user status API.",
+  "author": "Google",
+  "private": true,
+  "scripts": {
+    "start": "node src/userStatuses",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "googleapis": "^140.0.1",
+    "googleapis-common": "^7.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.14.0",
+    "@eslint/js": "^9.8.0",
+    "globals": "^15.8.0"
+  }
+}
